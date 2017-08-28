@@ -28,3 +28,8 @@ function appendKitten(name){
   return morekittens
 
 }
+//Prepend Kitten to Beginning of Array
+function prependKitten(name){
+  var evenmorekittens = [name,...kittens]
+  return evenmorekittens
+}
