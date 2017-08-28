@@ -24,6 +24,7 @@ function destructivelyRemoveFirstKitten(name){
 
 //Append Kitten to end of Array and Return Array unmodified
 function appendKitten(name){
-  return kittens = [...kittens, name]
+  const morekittens = [...kittens, name]
+  return kittens
 
 }
