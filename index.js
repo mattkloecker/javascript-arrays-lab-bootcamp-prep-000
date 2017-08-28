@@ -39,3 +39,8 @@ function removeFirstKitten(name){
   var fewerkittens = kittens.slice(1)
   return fewerkittens
 }
+
+//Remove Last kitten and return original
+function removeLastKitten(name){
+  var lastkitten = kittens.slice(0, kittens.length-1)
+}
