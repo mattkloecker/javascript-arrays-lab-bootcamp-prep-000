@@ -33,3 +33,9 @@ function prependKitten(name){
   var evenmorekittens = [name,...kittens]
   return evenmorekittens
 }
+
+//Remove first kitten and return original
+function removeFirstKitten(name){
+  var fewerkittens = [kittens.pop()]
+  return fewerkittens
+}
