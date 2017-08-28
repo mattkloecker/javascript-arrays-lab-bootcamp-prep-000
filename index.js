@@ -21,3 +21,8 @@ function destructivelyRemoveLastKitten(name){
 function destructivelyRemoveFirstKitten(name){
   kittens.shift(name)
 }
+
+//Append Kitten to end of Array and Return Array unmodified
+function appendKitten(name){
+  kittens = [...kittens, name]
+}
