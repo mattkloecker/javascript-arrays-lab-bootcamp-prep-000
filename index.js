@@ -3,6 +3,6 @@ const app = "I don't do much."
 var kittens=["Milo", "Otis", "Garfield"];
 
 //Destructively Append Kitten 'Ralph'
-function.destructivelyAppendKitten(array, name){
+function destructivelyAppendKitten(array, name){
   array.push(element)
 }
