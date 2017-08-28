@@ -36,6 +36,6 @@ function prependKitten(name){
 
 //Remove first kitten and return original
 function removeFirstKitten(name){
-  var fewerkittens = kittens.shift()
+  var fewerkittens = kittens.slice(1)
   return fewerkittens
 }
